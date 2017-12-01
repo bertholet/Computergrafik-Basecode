@@ -259,8 +259,8 @@ public class SimpleOpenVRwithPhysics
 	     
 			// Set camera and frustum
 			camera = sceneManager.getCamera();
-			Point3f pos = new Point3f(0,-1.f,-0.3f);
-			Point3f lookAt = new Point3f(0,-1.f,1);
+			Vector3f pos = new Vector3f(0,-1.f,-0.3f);
+			Vector3f lookAt = new Vector3f(0,-1.f,1);
 			Vector3f up = new Vector3f(0,1,0);
 
 			sceneManager.getCamera().setCenterOfProjection(pos);

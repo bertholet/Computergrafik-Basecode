@@ -3,8 +3,6 @@ import com.bulletphysics.dynamics.DynamicsWorld;
 import com.bulletphysics.dynamics.InternalTickCallback;
 import com.bulletphysics.dynamics.RigidBody;
 
-import jrtr.PhysicalShape;
-
 
 /**
  * Example class to track collisions of a single object t
